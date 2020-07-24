@@ -1,0 +1,25 @@
+#sketchholder {
+position: fixed;
+width: 100%;
+height: 100%;
+z-index: -1;
+}
+#topleft {
+	position: fixed;
+	top: 15px;
+	left: 15px;
+}
+#topleft a {
+	text-decoration: none;
+	color: white;
+}
+#topright {
+	position: fixed;
+	top: 15px;
+	left: 15px
+}
+#topright a {
+	text-decoration: none;
+	color: white;
+	
+}
