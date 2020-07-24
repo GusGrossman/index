@@ -1,3 +1,4 @@
+
 // Daniel Shiffman
 // code for https://youtu.be/vqE8DMfOajk
 
@@ -21,6 +22,6 @@ function Particle(x, y) {
     var col = video.get(px, py);
     //console.log(col);
     fill(col[0], col[1], col[2], slider.value());
-    //text(this.x, this.y, this.r, this.r);
+    ellipse(this.x, this.y, this.r, this.r);
   };
 }
